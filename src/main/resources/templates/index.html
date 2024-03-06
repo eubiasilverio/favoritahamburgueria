@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria Delícia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Hamburgueria Delícia</h1>
+</header>
+<nav>
+    <a th:href="@{/index}">Início</a>
+    <a th:href="@{/cardapio}">Cardápio</a>
+    <a th:href="@{/contato}">Contato</a>
+    <a th:href="@{/entrar}">Entrar</a>
+    <a th:href="@{/cadastrar}"h>Cadastrar</a>'
+</nav>
+<section>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 1">
+        <h2>Hamburguer Tradicional</h2>
+        <p>R$ 15,00</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 2">
+        <h2>Hamburguer com Queijo</h2>
+        <p>R$ 18,00</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 3">
+        <h2>Hamburguer Vegano</h2>
+        <p>R$ 20,00</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 Hamburgueria Delícia</p>
+</footer>
+</body>
+</html>

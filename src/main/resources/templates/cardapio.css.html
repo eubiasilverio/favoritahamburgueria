@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Hamburgueria Delícia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Hamburgueria Delicia</h1>
+</header>
+<nav>
+    <a th:href="@{/inicio}">Início</a>
+    <a th:href="@{/receitas}">Cardápio</a>
+    <a th:href="@{/telefone}">Contato</a>
+</nav>
+<section>
+    <h2>Cardápio</h2>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 1">
+        <h3>Hamburguer Tradicional</h3>
+        <p>R$ 15,00</p>
+        <p>Pão, carne, alface, tomate, cebola, molho especial</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 2">
+        <h3>Hamburguer com Queijo</h3>
+        <p>R$ 18,00</p>
+        <p>Pão, carne, queijo cheddar, alface, tomate, cebola, molho especial</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 3">
+        <h3>Hamburguer Vegano</h3>
+        <p>R$ 20,00</p>
+        <p>Pão vegano, hambúrguer de grão de bico, alface, tomate, cebola, molho vegano</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 4">
+        <h3>Hamburguer de Frango</h3>
+        <p>R$ 16,00</p>
+        <p>Pão, carne de frango, queijo prato, alface, tomate, cebola, maionese</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    <div class="card">
+        <img src="hamburguer1.jfif" alt="Hamburguer 5">
+        <h3>Hamburguer de Cordeiro</h3>
+        <p>R$ 22,00</p>
+        <p>Pão, carne de cordeiro, queijo feta, alface, cebola caramelizada, molho de hortelã</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 Hamburgueria Delícia</p>
+</footer>
+</body>
+</html>
